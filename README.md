@@ -1,6 +1,10 @@
-# TabView
+# CustomTabViewSwift
 
 Library for Tab View Controller. Custom Tab views. According to type.
+
+# Warning
+
+        Will only work with platform > 11.0.
 
 # How to install ?
 
