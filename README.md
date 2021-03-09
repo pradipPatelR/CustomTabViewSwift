@@ -2,34 +2,26 @@
 
 Library for Tab View Controller. Custom Tab views. According to type.
 
+# How to install ?
+
+        Open 'Podfile' file, Add 
+
+        pod 'CustomTabViewSwift'
+        
+        Open terminal and type -> pod install
+        
+# How to use ?
+
         let subVC1 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
         subVC1.title = "VC 1"
         let subVC2 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
         subVC2.title = "VC 2"
         let subVC3 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
         subVC3.title = "VC 3"
-        let subVC4 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC4.title = "VC 4"
-        let subVC5 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC5.title = "VC 5"
-        let subVC6 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC6.title = "VC 6"
-        let subVC7 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC7.title = "VC 7"
-        let subVC8 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC8.title = "VC 8"
-        let subVC9 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
-        subVC9.title = "VC 9"
-        tabParam.viewControllers = [subVC1, subVC2, subVC3, subVC4, subVC5, subVC6, subVC7, subVC8, subVC9]
+        tabParam.viewControllers = [subVC1, subVC2, subVC3]
         tabParam.tabData = [TabModel(title: "VC 1", img: "ic_account", selectedImg: "", badgeCount: ""),
                             TabModel(title: "VC 2", img: "ic_camera", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 3", img: "ic_delete", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 4", img: "ic_account", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 5", img: "ic_camera", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 6", img: "ic_delete", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 6", img: "ic_account", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 7", img: "ic_camera", selectedImg: "", badgeCount: ""),
-                            TabModel(title: "VC 8", img: "ic_delete", selectedImg: "", badgeCount: "")]
+                            TabModel(title: "VC 3", img: "ic_delete", selectedImg: "", badgeCount: "")]
         tabParam.place = .top
         tabParam.type = .title
         tabParam.equalWidth = false
