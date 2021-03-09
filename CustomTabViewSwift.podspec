@@ -1,7 +1,6 @@
 Pod::Spec.new do |s|
   s.platform         = :ios
   s.name             = 'CustomTabViewSwift'
-  s.ios.deployment_target = '11.0'
   s.version          = '1.0.2'
   s.summary          = 'Custom Tab View in Swift with custom options.'
  
@@ -34,7 +33,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Vikram Jagad' => 'vikramjagad97@gmail.com' }
   s.source           = { :git => 'https://github.com/vikramjagad/CustomTabViewSwift.git', :tag => s.version.to_s }
  
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'CustomTabViewSwift/HelperClasses/**/*'
   s.swift_version = '5.0'
  
