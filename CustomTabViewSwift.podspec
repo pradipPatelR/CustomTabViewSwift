@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform         = :ios
   s.name             = 'CustomTabViewSwift'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Custom Tab View in Swift with custom options.'
  
   s.description      = <<-DESC
