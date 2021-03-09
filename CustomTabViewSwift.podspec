@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
+  s.platform         = :ios
   s.name             = 'CustomTabViewSwift'
-  s.version          = '1.0'
+  s.ios.deployment_target = '12.0'
+  s.version          = '1.0.1'
   s.summary          = 'Custom Tab View in Swift with custom options.'
  
   s.description      = <<-DESC
@@ -34,6 +36,6 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '11.0'
   s.source_files = 'CustomTabViewSwift/HelperClasses/**/*'
-  s.swift_versions = '5.0'
+  s.swift_version = '5.0'
  
 end
