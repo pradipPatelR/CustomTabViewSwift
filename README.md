@@ -2,13 +2,13 @@
 
 Library for Tab View Controller. Custom Tab views. According to type.
 
-How to install ?
+# How to install ?
 
-Open 'Podfile' file, Add 
+        Open 'Podfile' file, Add 
 
         pod 'CustomTabViewSwift'
 
-How to use ?
+# How to use ?
 
         let subVC1 = UIStoryboard(name: "Sub", bundle: .main).instantiateViewController(withIdentifier: "SubViewController") as! SubViewController
         subVC1.title = "VC 1"
